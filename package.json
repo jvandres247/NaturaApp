@@ -1,0 +1,48 @@
+{
+  "name": "NATURAMovil",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "conekta-react-native": "^0.3.5",
+    "i18n-js": "^3.3.0",
+    "jetifier": "^1.6.4",
+    "react": "16.6.3",
+    "react-native": "0.58.4",
+    "react-native-camera-kit": "^7.3.3",
+    "react-native-checkbox-form": "^1.1.5",
+    "react-native-code-push": "^5.6.0",
+    "react-native-conekta": "^2.0.3",
+    "react-native-elements": "^1.1.0",
+    "react-native-enhanced-popup-menu": "^0.6.1",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-native-localize": "^1.1.3",
+    "react-native-numeric-input": "^1.6.5",
+    "react-native-permissions": "^1.1.1",
+    "react-native-searchbar": "^1.16.0",
+    "react-native-simple-dialogs": "^1.1.0",
+    "react-native-simple-radio-button": "^2.7.3",
+    "react-native-swiper": "^1.5.14",
+    "react-native-tab-navigator": "^0.3.4",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "3.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/fonts"
+    ]
+  }
+}
